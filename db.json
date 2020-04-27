@@ -1,14 +1,258 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "status": 0,
+  "message": "Success",
+  "response": [
+    {
+      "title": "Montly Customer Satisfaction Level",
+      "chartType": "Bar",
+      "columns": [
+        {
+          "title": "Customer",
+          "key": "c",
+          "type": "DATA",
+          "columnWidth": "200px",
+          "dataType": "string"
+        },
+        {
+          "title": "Satisfaction Level",
+          "key": "satis",
+          "type": "DATA",
+          "columnWidth": "200px",
+          "dataType": "number",
+          "aggregation": {
+            "aggregation": "AVG"
+          }
+        }
+      ],
+      "rows": [
+        [
+          "EIL",
+          67.5
+        ],
+        [
+          "Torrent Power",
+          72.5
+        ],
+        [
+          "Tata Power Mumbai",
+          70
+        ],
+        [
+          "GETCO",
+          77.5
+        ],
+        [
+          "IOCL",
+          72.5
+        ],
+        [
+          "SIEMENS",
+          77.5
+        ],
+        [
+          "GETCO",
+          67.5
+        ],
+        [
+          "GETCO",
+          62.5
+        ],
+        [
+          "IOCL",
+          60
+        ],
+        [
+          "GETCO",
+          67.5
+        ],
+        [
+          "TSSPDCL",
+          77.5
+        ],
+        [
+          "TSSPDCL",
+          80
+        ],
+        [
+          "OPTCL Cuttack",
+          80
+        ],
+        [
+          "DMRC",
+          67.5
+        ],
+        [
+          "SIEMENS",
+          67.5
+        ],
+        [
+          "TPDDL",
+          67.5
+        ],
+        [
+          "NPCL",
+          72.5
+        ],
+        [
+          "TPDDL",
+          70
+        ],
+        [
+          "BYPL",
+          77.5
+        ],
+        [
+          "TPDDL",
+          75
+        ],
+        [
+          "TPDDL",
+          85
+        ],
+        [
+          "WBSEDCL",
+          70
+        ],
+        [
+          "ADANI",
+          67.5
+        ],
+        [
+          "DMRC",
+          67.5
+        ],
+        [
+          "NPCL",
+          72.5
+        ],
+        [
+          "BSES",
+          62.5
+        ],
+        [
+          "ADANI",
+          75
+        ],
+        [
+          "DMRC",
+          72.5
+        ],
+        [
+          "BSES",
+          82.5
+        ],
+        [
+          "BYPL",
+          57.49999999999999
+        ],
+        [
+          "TATA POWER, DELHI",
+          87.5
+        ],
+        [
+          "Adani",
+          90
+        ],
+        [
+          "Adani",
+          90
+        ],
+        [
+          "ADANI",
+          75
+        ],
+        [
+          "Adani",
+          90
+        ],
+        [
+          "Adani",
+          90
+        ]
+      ]
+    },
+    {
+      "title": "Montly Customer Satisfaction Level",
+      "chartType": "Bar",
+      "columns": [
+        {
+          "title": "Month",
+          "key": "_$createdOnDate",
+          "type": "DIMENSION",
+          "format": "MMM",
+          "columnWidth": "200px",
+          "dataType": "string",
+          "groupingClauses": [
+            {
+              "calendarInterval": "MONTH",
+              "ranges": [
+                {
+                  "to": "01 Apr 2019",
+                  "from": "31 Dec 2019"
+                }
+              ],
+              "format": "dd MMM yyyy"
+            }
+          ]
+        },
+        {
+          "title": "Satisfaction Level",
+          "key": "satis",
+          "type": "DATA",
+          "columnWidth": "200px",
+          "dataType": "number",
+          "aggregation": {
+            "aggregation": "AVG"
+          }
+        }
+      ],
+      "rows": [
+        [
+          "Apr",
+          0,
+          0
+        ],
+        [
+          "Aug",
+          0,
+          0
+        ],
+        [
+          "Dec",
+          0,
+          0
+        ],
+        [
+          "Jul",
+          0,
+          0
+        ],
+        [
+          "Jun",
+          0,
+          0
+        ],
+        [
+          "May",
+          0,
+          0
+        ],
+        [
+          "Nov",
+          71.53225806451613,
+          85
+        ],
+        [
+          "Oct",
+          0,
+          0
+        ],
+        [
+          "Sep",
+          0,
+          0
+        ]
+      ]
+    }
+  ]
 }
